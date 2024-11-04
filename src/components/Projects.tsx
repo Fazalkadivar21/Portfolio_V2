@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+{/*update this porject links and all*/}
 
 const projects = [
   {
