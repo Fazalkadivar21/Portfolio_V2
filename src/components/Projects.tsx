@@ -3,11 +3,11 @@ import { motion } from 'framer-motion';
 
 const projects = [
   {
-    title: "Project Alpha",
-    description: "A revolutionary AI-powered platform",
+    title: "Fokas Buddy",
+    description: "A simple yet user friendly app to help you focus more",
     image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80",
-    tags: ["React", "Node.js", "AI"],
-    link: "#"
+    tags: ["React", "TypeScript"],
+    link: "https://fokasbuddy.netlify.app"
   },
   {
     title: "Project Beta",
@@ -72,6 +72,7 @@ export default function Projects() {
                 
                 <a 
                   href={project.link}
+                  target="_blank"
                   className="inline-block px-6 py-2 bg-indigo-500 text-white rounded-lg hover:bg-indigo-600 transition-colors"
                 >
                   View Project
