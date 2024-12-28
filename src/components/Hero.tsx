@@ -65,7 +65,7 @@ export default function Hero() {
             { Icon: Github, href: "https://github.com/fazalkadivar21" },
             { Icon: Linkedin, href: "https://linkedin.com/in/fazalkadivar21" },
             { Icon: X, href: "https://x.com/fazalkadivar21" },
-            { Icon: Mail, href: "mailto:work.fazal@gmail.com" }
+            { Icon: Mail, href: "mailto:work.fazalk@gmail.com" }
           ].map(({ Icon, href }, index) => (
             <motion.a
               key={index}
